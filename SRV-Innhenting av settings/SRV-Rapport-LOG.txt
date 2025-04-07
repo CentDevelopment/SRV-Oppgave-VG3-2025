@@ -1,0 +1,336 @@
+==== RAPPORT FOR SRV-OPPGAVE ====
+--- NETTVERKSINNSTILLINGER ---
+
+
+IPAddress         : fe80::50fe:f523:85e:946%8
+InterfaceIndex    : 8
+InterfaceAlias    : Ethernet 2
+AddressFamily     : IPv6
+Type              : Unicast
+PrefixLength      : 64
+PrefixOrigin      : WellKnown
+SuffixOrigin      : Link
+AddressState      : Preferred
+ValidLifetime     : Infinite ([TimeSpan]::MaxValue)
+PreferredLifetime : Infinite ([TimeSpan]::MaxValue)
+SkipAsSource      : False
+PolicyStore       : ActiveStore
+
+IPAddress         : fe80::24e7:fb5b:24d4:221c%4
+InterfaceIndex    : 4
+InterfaceAlias    : Ethernet
+AddressFamily     : IPv6
+Type              : Unicast
+PrefixLength      : 64
+PrefixOrigin      : WellKnown
+SuffixOrigin      : Link
+AddressState      : Preferred
+ValidLifetime     : Infinite ([TimeSpan]::MaxValue)
+PreferredLifetime : Infinite ([TimeSpan]::MaxValue)
+SkipAsSource      : False
+PolicyStore       : ActiveStore
+
+IPAddress         : ::1
+InterfaceIndex    : 1
+InterfaceAlias    : Loopback Pseudo-Interface 1
+AddressFamily     : IPv6
+Type              : Unicast
+PrefixLength      : 128
+PrefixOrigin      : WellKnown
+SuffixOrigin      : WellKnown
+AddressState      : Preferred
+ValidLifetime     : Infinite ([TimeSpan]::MaxValue)
+PreferredLifetime : Infinite ([TimeSpan]::MaxValue)
+SkipAsSource      : False
+PolicyStore       : ActiveStore
+
+IPAddress         : 10.13.37.45
+InterfaceIndex    : 8
+InterfaceAlias    : Ethernet 2
+AddressFamily     : IPv4
+Type              : Unicast
+PrefixLength      : 8
+PrefixOrigin      : Manual
+SuffixOrigin      : Manual
+AddressState      : Preferred
+ValidLifetime     : Infinite ([TimeSpan]::MaxValue)
+PreferredLifetime : Infinite ([TimeSpan]::MaxValue)
+SkipAsSource      : False
+PolicyStore       : ActiveStore
+
+IPAddress         : 192.168.79.10
+InterfaceIndex    : 4
+InterfaceAlias    : Ethernet
+AddressFamily     : IPv4
+Type              : Unicast
+PrefixLength      : 24
+PrefixOrigin      : Manual
+SuffixOrigin      : Manual
+AddressState      : Preferred
+ValidLifetime     : Infinite ([TimeSpan]::MaxValue)
+PreferredLifetime : Infinite ([TimeSpan]::MaxValue)
+SkipAsSource      : False
+PolicyStore       : ActiveStore
+
+IPAddress         : 127.0.0.1
+InterfaceIndex    : 1
+InterfaceAlias    : Loopback Pseudo-Interface 1
+AddressFamily     : IPv4
+Type              : Unicast
+PrefixLength      : 8
+PrefixOrigin      : WellKnown
+SuffixOrigin      : WellKnown
+AddressState      : Preferred
+ValidLifetime     : Infinite ([TimeSpan]::MaxValue)
+PreferredLifetime : Infinite ([TimeSpan]::MaxValue)
+SkipAsSource      : False
+PolicyStore       : ActiveStore
+
+
+
+
+InterfaceAlias               Interface Address ServerAddresses                                                         
+                             Index     Family                                                                          
+--------------               --------- ------- ---------------                                                         
+Ethernet                             4 IPv4    {127.0.0.1}                                                             
+Ethernet                             4 IPv6    {::1}                                                                   
+Ethernet 2                           8 IPv4    {10.13.37.7, 8.8.8.8}                                                   
+Ethernet 2                           8 IPv6    {::1}                                                                   
+Loopback Pseudo-Interface 1          1 IPv4    {}                                                                      
+Loopback Pseudo-Interface 1          1 IPv6    {fec0:0:0:ffff::1, fec0:0:0:ffff::2, fec0:0:0:ffff::3}                  
+
+
+--- DOMENE OG AD-INNSTILLINGER ---
+
+
+AllowedDNSSuffixes                 : {}
+ChildDomains                       : {}
+ComputersContainer                 : CN=Computers,DC=jovian,DC=local
+DeletedObjectsContainer            : CN=Deleted Objects,DC=jovian,DC=local
+DistinguishedName                  : DC=jovian,DC=local
+DNSRoot                            : jovian.local
+DomainControllersContainer         : OU=Domain Controllers,DC=jovian,DC=local
+DomainMode                         : Windows2016Domain
+DomainSID                          : S-1-5-21-2759589937-406364504-3672725290
+ForeignSecurityPrincipalsContainer : CN=ForeignSecurityPrincipals,DC=jovian,DC=local
+Forest                             : jovian.local
+InfrastructureMaster               : EUROPA-SRV01.jovian.local
+LastLogonReplicationInterval       : 
+LinkedGroupPolicyObjects           : {CN={31B2F340-016D-11D2-945F-00C04FB984F9},CN=Policies,CN=System,DC=jovian,DC=loca
+                                     l}
+LostAndFoundContainer              : CN=LostAndFound,DC=jovian,DC=local
+ManagedBy                          : 
+Name                               : jovian
+NetBIOSName                        : JOVIAN
+ObjectClass                        : domainDNS
+ObjectGUID                         : 8e560e70-521e-4b5a-954f-6c3494053760
+ParentDomain                       : 
+PDCEmulator                        : EUROPA-SRV01.jovian.local
+PublicKeyRequiredPasswordRolling   : True
+QuotasContainer                    : CN=NTDS Quotas,DC=jovian,DC=local
+ReadOnlyReplicaDirectoryServers    : {}
+ReplicaDirectoryServers            : {EUROPA-SRV01.jovian.local}
+RIDMaster                          : EUROPA-SRV01.jovian.local
+SubordinateReferences              : {DC=ForestDnsZones,DC=jovian,DC=local, DC=DomainDnsZones,DC=jovian,DC=local, CN=Co
+                                     nfiguration,DC=jovian,DC=local}
+SystemsContainer                   : CN=System,DC=jovian,DC=local
+UsersContainer                     : CN=Users,DC=jovian,DC=local
+
+
+
+
+
+ApplicationPartitions : {DC=DomainDnsZones,DC=jovian,DC=local, DC=ForestDnsZones,DC=jovian,DC=local}
+CrossForestReferences : {}
+DomainNamingMaster    : EUROPA-SRV01.jovian.local
+Domains               : {jovian.local}
+ForestMode            : Windows2016Forest
+GlobalCatalogs        : {EUROPA-SRV01.jovian.local}
+Name                  : jovian.local
+PartitionsContainer   : CN=Partitions,CN=Configuration,DC=jovian,DC=local
+RootDomain            : jovian.local
+SchemaMaster          : EUROPA-SRV01.jovian.local
+Sites                 : {Default-First-Site-Name}
+SPNSuffixes           : {}
+UPNSuffixes           : {}
+
+
+
+
+Name                          SamAccountName       Department
+----                          --------------       ----------
+Administrator                 Administrator                  
+Guest                         Guest                          
+krbtgt                        krbtgt                         
+Erik Fugl Sangen              Erik.Sangen                    
+Per Pålsen                    Per.Pålsen                     
+Åse Liv Olsen                 Åse.Olsen                      
+Eirik Sandland                Eirik.Sandland                 
+Fredrik Olè                   Fredrik.Olè                    
+Anne Sørensen                 Anne.Sørensen                  
+Anna Mellomland Messersmith   Anna.Messersmith               
+Jølle Jøllerud                Jølle.Jøllerud                 
+Kåre Broccoli                 Kåre.Broccoli                  
+Fredrik Olson                 Fredrik.Olson                  
+Synne Nilssen                 Synne.Nilssen                  
+Liv-Åse Kveldum               Liv-Åse.Kveldum                
+Karl-Fredrik Von Richterhoven Karl-Fredrik.Richter           
+Pål Per Hønesplass            Pål.Hønesplass                 
+Inger Tolsen                  Inger.Tolsen                   
+Eva Persen                    Eva.Persen                     
+Lars Petter Fredriksen        Lars.Fredriksen                
+
+
+
+Name                                     GroupScope
+----                                     ----------
+DHCP Users                              DomainLocal
+DHCP Administrators                     DomainLocal
+Administrators                          DomainLocal
+Users                                   DomainLocal
+Guests                                  DomainLocal
+Print Operators                         DomainLocal
+Backup Operators                        DomainLocal
+Replicator                              DomainLocal
+Remote Desktop Users                    DomainLocal
+Network Configuration Operators         DomainLocal
+Performance Monitor Users               DomainLocal
+Performance Log Users                   DomainLocal
+Distributed COM Users                   DomainLocal
+IIS_IUSRS                               DomainLocal
+Cryptographic Operators                 DomainLocal
+Event Log Readers                       DomainLocal
+Certificate Service DCOM Access         DomainLocal
+RDS Remote Access Servers               DomainLocal
+RDS Endpoint Servers                    DomainLocal
+RDS Management Servers                  DomainLocal
+Hyper-V Administrators                  DomainLocal
+Access Control Assistance Operators     DomainLocal
+Remote Management Users                 DomainLocal
+Storage Replica Administrators          DomainLocal
+Domain Computers                             Global
+Domain Controllers                           Global
+Schema Admins                             Universal
+Enterprise Admins                         Universal
+Cert Publishers                         DomainLocal
+Domain Admins                                Global
+Domain Users                                 Global
+Domain Guests                                Global
+Group Policy Creator Owners                  Global
+RAS and IAS Servers                     DomainLocal
+Server Operators                        DomainLocal
+Account Operators                       DomainLocal
+Pre-Windows 2000 Compatible Access      DomainLocal
+Incoming Forest Trust Builders          DomainLocal
+Windows Authorization Access Group      DomainLocal
+Terminal Server License Servers         DomainLocal
+Allowed RODC Password Replication Group DomainLocal
+Denied RODC Password Replication Group  DomainLocal
+Read-only Domain Controllers                 Global
+Enterprise Read-only Domain Controllers   Universal
+Cloneable Domain Controllers                 Global
+Protected Users                              Global
+Key Admins                                   Global
+Enterprise Key Admins                     Universal
+DnsAdmins                               DomainLocal
+DnsUpdateProxy                               Global
+Økonomi                                      Global
+Produksjon                                   Global
+Personal                                     Global
+Personal-Økonomi                             Global
+Konsulent                                    Global
+Konsulent-Produksjon                         Global
+
+
+--- HJEMMEOMRÃ…DER OG FELLESOMRÃ…DER ---
+
+Name           ScopeName Path                                          Description                      
+----           --------- ----                                          -----------                      
+ADMIN$         *         C:\Windows                                    Remote Admin                     
+Bakrund        *         C:\Delinger\Bakrund                                                            
+C$             *         C:\                                           Default share                    
+Delinger       *         C:\Delinger                                                                    
+IPC$           *                                                       Remote IPC                       
+Jovian-Printer *         Jovian-Printer,LocalsplOnly                   Jovian-Printer                   
+NETLOGON       *         C:\Windows\SYSVOL\sysvol\jovian.local\SCRIPTS Logon server share               
+print$         *         C:\Windows\system32\spool\drivers             Printer Drivers                  
+REMINST        *         C:\RemoteInstall                              Windows Deployment Services Share
+SYSVOL         *         C:\Windows\SYSVOL\sysvol                      Logon server share               
+
+
+--- DHCP-KONFIGURASJON ---
+
+ScopeId         SubnetMask      Name           State    StartRange      EndRange        LeaseDuration                  
+-------         ----------      ----           -----    ----------      --------        -------------                  
+192.168.79.0    255.255.255.0   HALO           Active   192.168.79.100  192.168.79.200  8.00:00:00                     
+
+
+--- SKRIVERE ---
+
+Name                           ComputerName    Type         DriverName                PortName        Shared   Publishe
+                                                                                                               d       
+----                           ------------    ----         ----------                --------        ------   --------
+Jovian-Printer                                 Local        Generic / Text Only       LPT1:           True     False   
+Microsoft Print to PDF (red...                 Local        Microsoft Print To PDF    TS002           False    False   
+Microsoft Print to PDF (red...                 Local        Microsoft Print To PDF    TS001           False    False   
+Microsoft Print to PDF                         Local        Microsoft Print To PDF    PORTPROMPT:     False    False   
+Microsoft XPS Document Writ...                 Local        Microsoft XPS Document... TS003           False    False   
+Microsoft XPS Document Writer                  Local        Microsoft XPS Document... PORTPROMPT:     False    False   
+
+
+--- BACKUP STATUS ---
+wbadmin 1.0 - Backup command-line tool
+(C) Copyright Microsoft Corporation. All rights reserved.
+
+ERROR - No backup or recovery operation is currently running.
+
+--- TILLEGGSTJENESTER (IIS/IPAM/WDS etc.) ---
+
+Display Name                                            Name                       Install State
+------------                                            ----                       -------------
+[X] Active Directory Domain Services                    AD-Domain-Services             Installed
+[X] DHCP Server                                         DHCP                           Installed
+[X] DNS Server                                          DNS                            Installed
+[X] File and Storage Services                           FileAndStorage-Services        Installed
+    [X] File and iSCSI Services                         File-Services                  Installed
+        [X] File Server                                 FS-FileServer                  Installed
+    [X] Storage Services                                Storage-Services               Installed
+[X] Windows Deployment Services                         WDS                            Installed
+    [X] Deployment Server                               WDS-Deployment                 Installed
+    [X] Transport Server                                WDS-Transport                  Installed
+[X] .NET Framework 4.8 Features                         NET-Framework-45-Fea...        Installed
+    [X] .NET Framework 4.8                              NET-Framework-45-Core          Installed
+    [X] WCF Services                                    NET-WCF-Services45             Installed
+        [X] TCP Port Sharing                            NET-WCF-TCP-PortShar...        Installed
+[X] Group Policy Management                             GPMC                           Installed
+[X] Microsoft Defender Antivirus                        Windows-Defender               Installed
+[X] Remote Server Administration Tools                  RSAT                           Installed
+    [X] Role Administration Tools                       RSAT-Role-Tools                Installed
+        [X] AD DS and AD LDS Tools                      RSAT-AD-Tools                  Installed
+            [X] Active Directory module for Windows ... RSAT-AD-PowerShell             Installed
+            [X] AD DS Tools                             RSAT-ADDS                      Installed
+                [X] Active Directory Administrative ... RSAT-AD-AdminCenter            Installed
+                [X] AD DS Snap-Ins and Command-Line ... RSAT-ADDS-Tools                Installed
+        [X] DHCP Server Tools                           RSAT-DHCP                      Installed
+        [X] DNS Server Tools                            RSAT-DNS-Server                Installed
+        [X] Windows Deployment Services Tools           WDS-AdminPack                  Installed
+[X] System Data Archiver                                System-DataArchiver            Installed
+[X] Windows PowerShell                                  PowerShellRoot                 Installed
+    [X] Windows PowerShell 5.1                          PowerShell                     Installed
+[X] Windows Server Backup                               Windows-Server-Backup          Installed
+[X] WoW64 Support                                       WoW64-Support                  Installed
+[X] XPS Viewer                                          XPS-Viewer                     Installed
+
+
+--- TIDSSYNKRONISERING ---
+Leap Indicator: 0(no warning)
+Stratum: 3 (secondary reference - syncd by (S)NTP)
+Precision: -23 (119.209ns per tick)
+Root Delay: 0.0000867s
+Root Dispersion: 0.0100002s
+ReferenceId: 0x564D5450 (source IP:  86.77.84.80)
+Last Successful Sync Time: 07.04.2025 11:18:44
+Source: VM IC Time Synchronization Provider
+Poll Interval: 6 (64s)
+
+=== SLUTT PÃ… RAPPORT ===
